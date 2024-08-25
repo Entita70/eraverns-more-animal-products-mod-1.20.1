@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "eanimalmod:squid_tentacle"
+  },
+  "result": "eanimalmod:fried_squid_tentacle"
+}

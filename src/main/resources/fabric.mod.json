@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "eanimalmod",
+	"version": "${version}",
+	"name": "Eravern's more animal products mod",
+	"description": "This mod aims to add more animal products, duh",
+	"authors": [
+		"Eravern"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/eanimalmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.eravern.eanimalmod.EAnimalMod"
+		],
+		"client": [
+			"net.eravern.eanimalmod.EAnimalModClient"
+		],
+		"fabric-datagen": [
+			"net.eravern.eanimalmod.EAnimalModDataGenerator"
+		]
+	},
+	"mixins": [
+		"eanimalmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

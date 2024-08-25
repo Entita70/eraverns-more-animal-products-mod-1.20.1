@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 100,
+  "experience": 0.17,
+  "ingredient": {
+    "item": "eanimalmod:raw_bear_meat"
+  },
+  "result": "eanimalmod:cooked_bear_meat"
+}
